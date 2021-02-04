@@ -1,0 +1,172 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "757e86220dccbfb5a5ca8cda34d2a20b",
+    "packages": [
+        {
+            "name": "elfcorreia/forms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elfcorreia/forms.git",
+                "reference": "ed59f4450776c163caed0f862e31180400524210"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elfcorreia/forms/zipball/ed59f4450776c163caed0f862e31180400524210",
+                "reference": "ed59f4450776c163caed0f862e31180400524210",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Forms\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Emerson C. Lima",
+                    "email": "elfcorreia@gmail.com"
+                }
+            ],
+            "time": "2021-01-13T17:18:47+00:00"
+        },
+        {
+            "name": "elfcorreia/pdo",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elfcorreia/pdo.git",
+                "reference": "48493ec0b0f089acb52b695f7c6c709291cfc551"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elfcorreia/pdo/zipball/48493ec0b0f089acb52b695f7c6c709291cfc551",
+                "reference": "48493ec0b0f089acb52b695f7c6c709291cfc551",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "inc/pdo.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Emerson C. Lima",
+                    "email": "elfcorreia@gmail.com"
+                }
+            ],
+            "description": "Helper utilities for working with pdo",
+            "time": "2021-02-01T18:01:54+00:00"
+        },
+        {
+            "name": "elfcorreia/routing",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elfcorreia/routing.git",
+                "reference": "6cd7ffa9c3f18b9a58697299dba39a3de757db48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elfcorreia/routing/zipball/6cd7ffa9c3f18b9a58697299dba39a3de757db48",
+                "reference": "6cd7ffa9c3f18b9a58697299dba39a3de757db48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "inc/routing.php"
+                ],
+                "psr-4": {
+                    "Routing\\": "src/Routing",
+                    "Invokable\\": "src/Invokable"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emerson C. Lima",
+                    "email": "elfcorreia@gmail.com",
+                    "homepage": "https://github.com/elfcorreia"
+                }
+            ],
+            "description": "A routing library",
+            "homepage": "https://github.com/elfcorreia/routing",
+            "keywords": [
+                "route",
+                "router",
+                "routing"
+            ],
+            "time": "2021-01-27T15:49:11+00:00"
+        },
+        {
+            "name": "elfcorreia/templating",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elfcorreia/templating.git",
+                "reference": "04feae22477ea6073a7c646c8d24a810c157776f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elfcorreia/templating/zipball/04feae22477ea6073a7c646c8d24a810c157776f",
+                "reference": "04feae22477ea6073a7c646c8d24a810c157776f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "inc/templating.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Emerson C. Lima",
+                    "email": "elfcorreia@gmail.com"
+                }
+            ],
+            "description": "A powerful micro templating PHP engine",
+            "time": "2021-02-01T14:30:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "elfcorreia/routing": 20,
+        "elfcorreia/templating": 20,
+        "elfcorreia/forms": 20,
+        "elfcorreia/pdo": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

@@ -1,0 +1,22 @@
+{
+    "name": "elfcorreia/inventario",
+    "description": "App de inventario",
+    "type": "project",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Emerson C. Lima",
+            "email": "elfcorreia@gmail.com"
+        }
+    ],
+    "require": {
+        "elfcorreia/routing": "@dev",
+        "elfcorreia/templating": "@dev",
+        "elfcorreia/forms": "@dev",
+        "elfcorreia/pdo": "@dev"
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "serve": "@php -S 0.0.0.0:8080 web.php"
+    }
+}
